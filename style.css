@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff5fb2, #b72866);
+    color: #510132;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(224, 9, 113, 0.1);
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ea2c7b;
+}
+
+header {
+    background-color: #eb3584;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.mobil-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mobil-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(33.333% - 20px);
+    text-align: center;
+}
+
+.mobil-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.mobil-item h4 {
+    margin: 10px 0;
+}
+
+.mobil-item p {
+    color: #b40b6e;
+}
+
+.btn-book {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #9a124d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+form {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ec2980;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ef2d7b;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ed2978;
+}
